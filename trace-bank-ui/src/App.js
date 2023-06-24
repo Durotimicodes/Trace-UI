@@ -1,9 +1,15 @@
 import React from "react";
+import './index.css';
+import Sidebar from './components/Sidebar'
+import RightSidebar from './components/RightSidebar'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
-    <div className="App">
-   
+    <div className="app__container">
+    <Sidebar/>
+    <Dashboard/>
+    <RightSidebar/>
     </div>
   );
 }
