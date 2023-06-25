@@ -2,8 +2,6 @@ import React, { useState } from 'react'
 import "./Sidebar.css"
 import {BiHomeAlt} from "react-icons/bi"
 import { AiOutlineFundProjectionScreen, AiOutlineTrophy } from "react-icons/ai";
-
-// import { AiOutlineTrophy } from "react-icons/ai"
 import { AiOutlineFileText } from "react-icons/ai"
 import { AiOutlineDotChart } from "react-icons/ai"
 import { BsCircleFill, BsCreditCardFill } from "react-icons/bs";

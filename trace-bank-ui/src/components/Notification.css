@@ -1,0 +1,30 @@
+
+.section__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.font__icon {
+    font-size: 1.5rem;
+}
+
+/* svg {
+  color: rgb(145, 145, 145);  
+} */
+.image {
+    display: flex;
+    gap: 1rem;
+}
+.image > img {
+ height: 2.5rem;
+ width:n 2.5rem ;
+ border-radius: 3rem;
+}

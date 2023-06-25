@@ -1,0 +1,52 @@
+.shopping {
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    border-radius: 1rem;
+    color: #000;
+    background-color: #fff;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+.shopping:hover {
+    background-color: #ea3a48;
+    color: #000;
+    
+}
+
+.shopping:hover svg {
+    color: #fff;
+}
+
+.design {
+    display: flex;
+}
+
+.design > svg {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.number {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 10px;
+}
+
+.number > h6 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.image {
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 12rem;
+}
+
+.name {
+    display: flex;
+    gap: 0.5rem;
+}
