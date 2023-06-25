@@ -44,9 +44,9 @@ const Sidebar = () => {
           </li>
 
           <li className={currentLink === 4 ? "active" : "none"} onClick={()=> setCurrentLinks(4)}>
-            <a href='#' className='noti'>
+            <a href='#' className='notification'>
               <BsCreditCardFill />
-              <span></span>
+              <span>2</span>
             </a>
           </li>
 
